@@ -12,6 +12,8 @@ Unoffcial NVIDIA CUDA GPU support version of Google Tensorflow 1.8 for MAC OSX 1
 **Requirement:**
 
     1. Must use python3 instead of python2
+    
+        ENUM/ENUM34 PACKAGE MUST BE AVAILABLE FOR BUILDING
 
     2. Must be installed on MAC OSX 10.6+
 
