@@ -35,11 +35,9 @@ Unoffcial NVIDIA CUDA GPU support version of Google Tensorflow 1.8 for MAC OSX 1
 
 3.INSTALL NVIDIA CUDA CUDNN (7.0 OR LATER)
 
-  Depending on CUDNN and CUDA version, rename some files:
-  
-  libdevice.compute_50.10.bc--->libdevice.10.bc) in /usr/local/cuda&cuda-X.0/nvvm/libdevice
-  
-  Thank you HwangIkHwan
+    Depending on CUDNN and CUDA version, rename some files:
+    libdevice.compute_50.10.bc--->libdevice.10.bc) in /usr/local/cuda&cuda-X.0/nvvm/libdevice
+    Thank you HwangIkHwan
     
 4.SET UP CUDA ENVIRONMENT (MAKE SURE
 
