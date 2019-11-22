@@ -2,7 +2,7 @@
 
 **Fork from zylo117/tensorflow-gpu-macosx**
 
-Built on my Hackintosh <3
+Built on my Hackintosh
     2.8 Ghz Quad-Core Xenon E5462 Harpertown
     NVIDIA GTX 960 4GB VRAM
     OSX 10.11 El Cap
