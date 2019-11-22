@@ -152,7 +152,9 @@ WORKS AND PRINTS CUDA VERSION)
 
     ./bazel-bin/tensorflow/tools/pip_package/build_pip_package/ ./tmp/tensorflow_pkg
 
-17.INSTALL PYTHON WHEEL USING 'pip3 install ./tmp/tensorflow_pkg/*.whl'
+17.INSTALL PYTHON WHEEL USING 
+
+    pip3 install ./tmp/tensorflow_pkg/*.whl
 
 18.REINSTALL XCODE/COMMAND LINE TOOL 9
 
