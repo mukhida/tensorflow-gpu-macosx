@@ -1,5 +1,25 @@
 # tensorflow-gpu-macosx
 
+**Fork from zylo117/tensorflow-gpu-macosx**
+
+Built on my Hackintosh
+    2.8 Ghz Quad-Core Xenon E5462 Harpertown
+    NVIDIA GTX 960 4GB VRAM
+    OSX 10.11 El Cap
+    
+    CUDA==8.0
+    CUCNN==7.0.
+    
+    llvm==3.5
+    mock==1.0.1
+    enum34
+    
+    Built on system Python (2.6)
+    
+    INFO: Elapsed time: 13527.339s, Critical Path: 367.51s
+    INFO: 8611 processes: 8611 local.
+    INFO: Build completed successfully, 9135 total actions
+
 Unoffcial NVIDIA CUDA GPU support version of Google Tensorflow 1.8 for MAC OSX 10.13
 
 **Description:**
@@ -15,9 +35,6 @@ Unoffcial NVIDIA CUDA GPU support version of Google Tensorflow 1.8 for MAC OSX 1
     
         ENUM/ENUM34 PACKAGE MUST BE AVAILABLE FOR BUILDING
         MOCK MUST BE AVAILABLE FOR TESTING
-        I built on El Capitan's system Python:
-            pip install mock==1.0.1
-            pip install enum34
 
     2. Must be installed on MAC OSX 10.6+
 
@@ -41,9 +58,9 @@ Unoffcial NVIDIA CUDA GPU support version of Google Tensorflow 1.8 for MAC OSX 1
 
 3.INSTALL NVIDIA CUDA CUDNN (7.0 OR LATER)
 
-    Depending on CUDNN and CUDA version, rename some files:
-    libdevice.compute_50.10.bc--->libdevice.10.bc) in /usr/local/cuda&cuda-X.0/nvvm/libdevice
-    Thank you HwangIkHwan
+    Depending on CUDNN and CUDA version, copy and rename some files:
+    libdevice.compute_50.10.bc--->libdevice.10.bc in /usr/local/cuda&cuda-X.0/nvvm/libdevice
+    *Thank you HwangIkHwan
     
 4.SET UP CUDA ENVIRONMENT (MAKE SURE
 
