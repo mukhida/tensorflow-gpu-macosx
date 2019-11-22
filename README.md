@@ -155,7 +155,7 @@ WORKS AND PRINTS CUDA VERSION)
 
 17.INSTALL PYTHON WHEEL USING 
 
-    pip3 install ./tmp/tensorflow_pkg/*.whl
+    python -m pip install ./tmp/tensorflow_pkg/*.whl --ignore-installed six
 
 18.REINSTALL XCODE/COMMAND LINE TOOL 9
 
