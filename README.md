@@ -7,14 +7,15 @@ Built on my Hackintosh
     NVIDIA GTX 960 4GB VRAM
     OSX 10.11 El Cap
     
-    CUDA==8.0
-    CUCNN==7.0
+    CUDA 8.0
+    CUCNN 7.0
+    Compute 5.2
     
     llvm==3.5
     mock==1.0.1
     enum34
     
-    Built on system Python (2.6)
+    Built with system Python (2.7.10)
     
     INFO: Elapsed time: 13527.339s, Critical Path: 367.51s
     INFO: 8611 processes: 8611 local.
